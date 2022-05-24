@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Cristina Romero
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project realized for me, Cristina Romero for the technical test of MedBioinformatics
 
-## Available Scripts
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+I have developed the project using Javascript language and the React.js framework, with Bootstrap as a library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## PROJECT DESCRIPTION
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project consists of a main page composed of two components: first functionality and second functionality. 
 
-### `npm run build`
+Each of the components has an entry where you can write the desired code and a sample table with the requested information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The first functionality returns a table with the top 10 disease-associated genes. They are displayed in descending order of score with the following information: The disease identifier, Gene HGNC Symbol, score, year initial and year final. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In addition, the id of the associated gene to which each row of the table refers is specified as extra information.
+For the correct information to be displayed, the UMLS code associated with the disease must be entered and 'enter' must be pressed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The second functionality returns a table with the Gene HGNC symbol, the number of variants and the list of variants.
+For the correct information to be displayed, a Gene HGNC symbol must be entered and 'enter' must be pressed.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## COMMENTS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To create the tables, I chose to use the Bootstrap library because the ReactDataGrid library gave me problems.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+What I found more complicated was to understand the API and to know what information I was looking for and how I could get it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+At first I put the API KEY in a .js file and wrote it down in the gitignore so that it would be hidden, but I decided to change it so that there would be no problems when initializing the application.
