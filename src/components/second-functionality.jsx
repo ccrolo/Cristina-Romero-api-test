@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card'
 import Table from 'react-bootstrap/Table'
 import Container from 'react-bootstrap/Container'
 import Spinner from 'react-bootstrap/Spinner'
+import {key} from "../apikey.js"
 
 
 
@@ -30,7 +31,7 @@ function SecondFunctionality() {
     useEffect(() => {
         fetch(`https://api.disgenetplus.com/api/v1/entity/gene?gene_symbol=${inputData}`, {
             method: 'GET',
-            headers: { 'Authorization': `63bf1392-f32a-448d-8986-6b0b937f9b17` }
+            headers: { 'Authorization': `${key}` }
         })
             .then(j => j.json())
             .then(data => {
