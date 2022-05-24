@@ -9,7 +9,7 @@ I have developed the project using Javascript language and the React.js framewor
 
 
 
-### PROJECT DESCRIPTION
+## PROJECT DESCRIPTION
 
 The project consists of a main page composed of two components: first functionality and second functionality. 
 
@@ -25,7 +25,7 @@ For the correct information to be displayed, a Gene HGNC symbol must be entered 
 
 
 
-### COMMENTS
+## COMMENTS
 
 To create the tables, I chose to use the Bootstrap library because the ReactDataGrid library gave me problems.
 
