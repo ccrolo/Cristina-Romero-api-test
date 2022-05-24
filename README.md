@@ -2,9 +2,12 @@
 
 Project realized for me, Cristina Romero for the technical test of MedBioinformatics
 
+
 ## Introduction
 
 I have developed the project using Javascript language and the React.js framework, with Bootstrap as a library.
+
+
 
 ### PROJECT DESCRIPTION
 
@@ -19,6 +22,8 @@ For the correct information to be displayed, the UMLS code associated with the d
 
 The second functionality returns a table with the Gene HGNC symbol, the number of variants and the list of variants.
 For the correct information to be displayed, a Gene HGNC symbol must be entered and 'enter' must be pressed.
+
+
 
 ### COMMENTS
 
