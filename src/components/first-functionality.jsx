@@ -59,14 +59,14 @@ function FirstFunctionality() {
                         <Button variant="dark" className="mt-3 mb-5" type="submit">Enter</Button>
                     </Form>
                 {/* Tabla con la info solicitada. El spinner  */}
-                    {disease === null
+                    {disease === undefined
                         ? <Spinner animation="border" role="status">
                             <span className="visually-hidden">Loading...</span>
                         </Spinner>
                         : <Table striped bordered hover size="sm" variant="dark">
                             <thead>
                                 <tr>
-                                    <th>{inputData}</th>
+                                    <th>Disease Identifier: {inputData}</th>
                                     <th>Gene HGNC Symbol</th>
                                     <th>Score</th>
                                     <th>Year Initial</th>
