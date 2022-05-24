@@ -30,3 +30,5 @@ For the correct information to be displayed, a Gene HGNC symbol must be entered 
 To create the tables, I chose to use the Bootstrap library because the ReactDataGrid library gave me problems.
 
 What I found more complicated was to understand the API and to know what information I was looking for and how I could get it.
+
+At first I put the API KEY in a .js file and wrote it down in the gitignore so that it would be hidden, but I decided to change it so that there would be no problems when initializing the application.
