@@ -27,7 +27,7 @@ For the correct information to be displayed, a Gene HGNC symbol must be entered 
 
 ## COMMENTS
 
-To create the tables, I chose to use the Bootstrap library because the ReactDataGrid library gave me problems.
+To create the tables, I chose to use the Bootstrap library.
 
 What I found more complicated was to understand the API and to know what information I was looking for and how I could get it.
 
